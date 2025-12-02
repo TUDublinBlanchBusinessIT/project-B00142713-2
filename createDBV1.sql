@@ -3,8 +3,8 @@ create database bookappoinment;
 use bookappoinment;
 create table appointmentbooking (
     id int auto_increment,
-    firstname varchar(30),
-    surname varchar(30),
+    bookingtime varchar(30),
+    bookingard varchar(30),
     primary key(id)
 );
 create table patientname (
