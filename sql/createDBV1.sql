@@ -5,6 +5,7 @@ create table appointmentbooking (
     id int auto_increment,
     bookingtime varchar(30),
     bookingdate varchar(30),
+    treatment varchar(30)
     primary key(id)
 );
 create table patientname (
